@@ -158,6 +158,7 @@
 			<Catalog>КонтактныеЛицаКонтрагентов</Catalog>
 			<Catalog>ХранимыеФайлы</Catalog>
 			<Catalog>Должности</Catalog>
+			<Catalog>Справочник1</Catalog>
 			<Document>ВыплатаЗП</Document>
 			<Document>ДополнительныеНачисления</Document>
 			<Document>НачислениеЗПОкладникам</Document>
