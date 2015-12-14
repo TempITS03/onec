@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<commandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<subsystemsVisibility>
+		<fragment>Subsystem.УчетЗаданий</fragment>
+		<visibility>
+			<xr:common>true</xr:common>
+			<xr:forRole name="Role.ПолныеПрава">true</xr:forRole>
+			<xr:forRole name="Role.Программист">true</xr:forRole>
+		</visibility>
+	</subsystemsVisibility>
+	<subsystemsVisibility>
+		<fragment>Subsystem.Финансы</fragment>
+		<visibility>
+			<xr:common>true</xr:common>
+			<xr:forRole name="Role.Программист">true</xr:forRole>
+		</visibility>
+	</subsystemsVisibility>
+	<subsystemsVisibility>
+		<fragment>Subsystem.Предприятие</fragment>
+		<visibility>
+			<xr:common>true</xr:common>
+			<xr:forRole name="Role.ПолныеПрава">true</xr:forRole>
+			<xr:forRole name="Role.Программист">true</xr:forRole>
+		</visibility>
+	</subsystemsVisibility>
+	<subsystemsVisibility>
+		<fragment>Subsystem.Сервис</fragment>
+		<visibility>
+			<xr:common>true</xr:common>
+			<xr:forRole name="Role.Программист">true</xr:forRole>
+		</visibility>
+	</subsystemsVisibility>
+	<subsystemsOrder>Subsystem.УчетЗаданий</subsystemsOrder>
+	<subsystemsOrder>Subsystem.Финансы</subsystemsOrder>
+	<subsystemsOrder>Subsystem.Предприятие</subsystemsOrder>
+	<subsystemsOrder>Subsystem.Сервис</subsystemsOrder>
+</commandInterface>

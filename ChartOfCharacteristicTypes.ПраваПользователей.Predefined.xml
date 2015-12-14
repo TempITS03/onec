@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<predefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefined">
+	<item id="1ef6e0e9-3801-4370-a938-434a18449683">
+		<isFolder>true</isFolder>
+		<name>РаботаСДокументами</name>
+		<code>000000001</code>
+		<description>Работа с документами</description>
+		<type/>
+		<content>
+			<item id="dc134b4e-bc09-4501-9bd6-f26a5f59c4cd">
+				<isFolder>false</isFolder>
+				<name>РазрешитьПросматриватьЗаданияДругихПользователей</name>
+				<code>000000002</code>
+				<description>Разрешить просматривать задания других пользователей</description>
+				<type>
+					<v8:Type>xs:boolean</v8:Type>
+				</type>
+			</item>
+			<item id="b4bb6512-212f-4cd2-b9bb-9ef0440f6eac">
+				<isFolder>false</isFolder>
+				<name>РазрешитьПросматриватьЗароботнуюПлатуДругихПользователей</name>
+				<code>000000003</code>
+				<description>Разрешить просматривать зароботную плату других пользователей</description>
+				<type>
+					<v8:Type>xs:boolean</v8:Type>
+				</type>
+			</item>
+		</content>
+	</item>
+</predefinedData>

@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<FlowChartSchema xmlns="http://v8.1c.ru/8.3/xcf/scheme" xmlns:sch="http://v8.1c.ru/8.2/data/graphscheme" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<BackColor>style:FieldBackColor</BackColor>
+	<EnableGrid>true</EnableGrid>
+	<DrawGridMode>Lines</DrawGridMode>
+	<GridHorizontalStep>20</GridHorizontalStep>
+	<GridVerticalStep>20</GridVerticalStep>
+	<PrintParameters>
+		<Top>10</Top>
+		<Left>10</Left>
+		<Bottom>10</Bottom>
+		<Right>10</Right>
+		<BlackAndWhite>false</BlackAndWhite>
+		<FitPageMode>Auto</FitPageMode>
+	</PrintParameters>
+	<Items>
+		<EntryPoint id="1" uuid="57f47cd2-f919-4461-a08d-9da891b0aaea">
+			<Properties>
+				<Code>Старт</Code>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Старт</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>1</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNum>0</GroupNum>
+				<ZOrder>0</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<TextFont xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" ref="sys:DefaultGUIFont" kind="WindowsFont"/>
+				<TextHAlign>Center</TextHAlign>
+				<TextVAlign>Center</TextVAlign>
+				<PicturePlacement>Left</PicturePlacement>
+				<Rect top="0" left="200" bottom="60" right="300"/>
+				<Point x="200" y="0"/>
+				<Point x="299" y="0"/>
+				<Point x="299" y="32"/>
+				<Point x="250" y="59"/>
+				<Point x="200" y="32"/>
+				<LineStyle width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</LineStyle>
+				<Picture/>
+				<PictureStretchStyle>AutoSize</PictureStretchStyle>
+			</Properties>
+			<Events>
+				<Event name="BeforeStart"/>
+			</Events>
+		</EntryPoint>
+		<Connector id="2">
+			<Properties>
+				<Code>Линия1</Code>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>2</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNum>0</GroupNum>
+				<ZOrder>1</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<TextFont xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" ref="sys:DefaultGUIFont" kind="WindowsFont"/>
+				<TextHAlign>Center</TextHAlign>
+				<TextVAlign>Center</TextVAlign>
+				<PicturePlacement>Left</PicturePlacement>
+				<Point x="250" y="60"/>
+				<Point x="250" y="80"/>
+				<Point x="250" y="80"/>
+				<Point x="250" y="100"/>
+				<LineStyle width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</LineStyle>
+				<ConnectFrom>Старт</ConnectFrom>
+				<ConnectFromPortIndex>0</ConnectFromPortIndex>
+				<ConnectTo>ПользовательКонтрагента</ConnectTo>
+				<DecorativeLine>false</DecorativeLine>
+				<PortIndexFrom>4</PortIndexFrom>
+				<PortIndexTo>2</PortIndexTo>
+				<TextPos>FirstSegment</TextPos>
+				<BeginArrowStyle>None</BeginArrowStyle>
+				<EndArrowStyle>Filled</EndArrowStyle>
+			</Properties>
+		</Connector>
+		<ActionPoint id="3" uuid="d28cf6d6-8eb6-49ca-9a3b-5099b72c7ad2">
+			<Properties>
+				<Code>ПользовательКонтрагента</Code>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Пользователь контрагента</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>3</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNum>0</GroupNum>
+				<ZOrder>2</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<TextFont xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" ref="sys:DefaultGUIFont" kind="WindowsFont"/>
+				<TextHAlign>Center</TextHAlign>
+				<TextVAlign>Center</TextVAlign>
+				<PicturePlacement>Left</PicturePlacement>
+				<Rect top="100" left="160" bottom="180" right="340"/>
+				<Point x="160" y="100"/>
+				<Point x="339" y="100"/>
+				<Point x="339" y="179"/>
+				<Point x="160" y="179"/>
+				<LineStyle width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</LineStyle>
+				<Picture/>
+				<PictureStretchStyle>AutoSize</PictureStretchStyle>
+				<TaskDescription>Пользователь контрагента</TaskDescription>
+				<Explanation>Контактное лицо контрагента (заказчик)</Explanation>
+				<GroupAddressing>false</GroupAddressing>
+				<AddressingAttribute>
+					<Attribute>Task.ЗадачаWeb.AddressingAttribute.Исполнитель</Attribute>
+					<Value xsi:nil="true"/>
+				</AddressingAttribute>
+				<AddressingAttribute>
+					<Attribute>Task.ЗадачаWeb.AddressingAttribute.Должность</Attribute>
+					<Value xsi:nil="true"/>
+				</AddressingAttribute>
+				<IsAddrZoneDivideValid>true</IsAddrZoneDivideValid>
+				<AddrZoneDivideYPos>28</AddrZoneDivideYPos>
+			</Properties>
+			<Events>
+				<Event name="InteractiveActivationProcessing"/>
+				<Event name="BeforeCreateTasks"/>
+				<Event name="OnCreateTask"/>
+				<Event name="OnExecute"/>
+				<Event name="CheckExecutionProcessing"/>
+				<Event name="BeforeExecute"/>
+				<Event name="BeforeExecuteInteractively"/>
+			</Events>
+		</ActionPoint>
+		<Connector id="4">
+			<Properties>
+				<Code>Линия2</Code>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>4</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNum>0</GroupNum>
+				<ZOrder>3</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<TextFont xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" ref="sys:DefaultGUIFont" kind="WindowsFont"/>
+				<TextHAlign>Center</TextHAlign>
+				<TextVAlign>Center</TextVAlign>
+				<PicturePlacement>Left</PicturePlacement>
+				<Point x="250" y="180"/>
+				<Point x="250" y="200"/>
+				<Point x="250" y="200"/>
+				<Point x="250" y="220"/>
+				<LineStyle width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</LineStyle>
+				<ConnectFrom>ПользовательКонтрагента</ConnectFrom>
+				<ConnectFromPortIndex>0</ConnectFromPortIndex>
+				<ConnectTo>СотрудникиIT</ConnectTo>
+				<DecorativeLine>false</DecorativeLine>
+				<PortIndexFrom>4</PortIndexFrom>
+				<PortIndexTo>2</PortIndexTo>
+				<TextPos>FirstSegment</TextPos>
+				<BeginArrowStyle>None</BeginArrowStyle>
+				<EndArrowStyle>Filled</EndArrowStyle>
+			</Properties>
+		</Connector>
+		<ActionPoint id="5" uuid="f933e0eb-5b57-49b6-a85a-8d4d93d3606c">
+			<Properties>
+				<Code>СотрудникиIT</Code>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Сотрудники IT</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>5</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNum>0</GroupNum>
+				<ZOrder>4</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<TextFont xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" ref="sys:DefaultGUIFont" kind="WindowsFont"/>
+				<TextHAlign>Center</TextHAlign>
+				<TextVAlign>Center</TextVAlign>
+				<PicturePlacement>Left</PicturePlacement>
+				<Rect top="220" left="160" bottom="280" right="340"/>
+				<Point x="160" y="220"/>
+				<Point x="339" y="220"/>
+				<Point x="339" y="279"/>
+				<Point x="160" y="279"/>
+				<LineStyle width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</LineStyle>
+				<Picture/>
+				<PictureStretchStyle>AutoSize</PictureStretchStyle>
+				<TaskDescription>Сотрудники IT</TaskDescription>
+				<Explanation>Любой сотрудник IT отдела</Explanation>
+				<GroupAddressing>false</GroupAddressing>
+				<AddressingAttribute>
+					<Attribute>Task.ЗадачаWeb.AddressingAttribute.Исполнитель</Attribute>
+					<Value xsi:nil="true"/>
+				</AddressingAttribute>
+				<AddressingAttribute>
+					<Attribute>Task.ЗадачаWeb.AddressingAttribute.Должность</Attribute>
+					<Value xsi:nil="true"/>
+				</AddressingAttribute>
+				<IsAddrZoneDivideValid>true</IsAddrZoneDivideValid>
+				<AddrZoneDivideYPos>16</AddrZoneDivideYPos>
+			</Properties>
+			<Events>
+				<Event name="InteractiveActivationProcessing"/>
+				<Event name="BeforeCreateTasks"/>
+				<Event name="OnCreateTask"/>
+				<Event name="OnExecute"/>
+				<Event name="CheckExecutionProcessing"/>
+				<Event name="BeforeExecute"/>
+				<Event name="BeforeExecuteInteractively"/>
+			</Events>
+		</ActionPoint>
+		<Connector id="6">
+			<Properties>
+				<Code>Линия3</Code>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>6</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNum>0</GroupNum>
+				<ZOrder>5</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<TextFont xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" ref="sys:DefaultGUIFont" kind="WindowsFont"/>
+				<TextHAlign>Center</TextHAlign>
+				<TextVAlign>Center</TextVAlign>
+				<PicturePlacement>Left</PicturePlacement>
+				<Point x="250" y="280"/>
+				<Point x="250" y="300"/>
+				<Point x="250" y="300"/>
+				<Point x="250" y="320"/>
+				<LineStyle width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</LineStyle>
+				<ConnectFrom>СотрудникиIT</ConnectFrom>
+				<ConnectFromPortIndex>0</ConnectFromPortIndex>
+				<ConnectTo>НачальникIT</ConnectTo>
+				<DecorativeLine>false</DecorativeLine>
+				<PortIndexFrom>4</PortIndexFrom>
+				<PortIndexTo>2</PortIndexTo>
+				<TextPos>FirstSegment</TextPos>
+				<BeginArrowStyle>None</BeginArrowStyle>
+				<EndArrowStyle>Filled</EndArrowStyle>
+			</Properties>
+		</Connector>
+		<EndPoint id="7" uuid="7d2c7aef-c276-4849-861f-d3581457d945">
+			<Properties>
+				<Code>Завершение</Code>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Завершение</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>7</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNum>0</GroupNum>
+				<ZOrder>6</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<TextFont xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" ref="sys:DefaultGUIFont" kind="WindowsFont"/>
+				<TextHAlign>Center</TextHAlign>
+				<TextVAlign>Center</TextVAlign>
+				<PicturePlacement>Left</PicturePlacement>
+				<Rect top="420" left="200" bottom="480" right="300"/>
+				<Point x="250" y="420"/>
+				<Point x="299" y="448"/>
+				<Point x="299" y="479"/>
+				<Point x="200" y="479"/>
+				<Point x="200" y="448"/>
+				<LineStyle width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</LineStyle>
+				<Picture/>
+				<PictureStretchStyle>AutoSize</PictureStretchStyle>
+			</Properties>
+			<Events>
+				<Event name="OnComplete"/>
+			</Events>
+		</EndPoint>
+		<ActionPoint id="10" uuid="57171181-5be0-4acb-a0eb-1433c5216998">
+			<Properties>
+				<Code>НачальникIT</Code>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Начальник IT</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>10</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNum>0</GroupNum>
+				<ZOrder>7</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<TextFont xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" ref="sys:DefaultGUIFont" kind="WindowsFont"/>
+				<TextHAlign>Center</TextHAlign>
+				<TextVAlign>Center</TextVAlign>
+				<PicturePlacement>Left</PicturePlacement>
+				<Rect top="320" left="200" bottom="380" right="300"/>
+				<Point x="200" y="320"/>
+				<Point x="299" y="320"/>
+				<Point x="299" y="379"/>
+				<Point x="200" y="379"/>
+				<LineStyle width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</LineStyle>
+				<Picture/>
+				<PictureStretchStyle>AutoSize</PictureStretchStyle>
+				<TaskDescription>Начальник IT</TaskDescription>
+				<Explanation>Начальник IT</Explanation>
+				<GroupAddressing>false</GroupAddressing>
+				<AddressingAttribute>
+					<Attribute>Task.ЗадачаWeb.AddressingAttribute.Исполнитель</Attribute>
+					<Value xsi:nil="true"/>
+				</AddressingAttribute>
+				<AddressingAttribute>
+					<Attribute>Task.ЗадачаWeb.AddressingAttribute.Должность</Attribute>
+					<Value xsi:nil="true"/>
+				</AddressingAttribute>
+				<IsAddrZoneDivideValid>true</IsAddrZoneDivideValid>
+				<AddrZoneDivideYPos>16</AddrZoneDivideYPos>
+			</Properties>
+			<Events>
+				<Event name="InteractiveActivationProcessing"/>
+				<Event name="BeforeCreateTasks"/>
+				<Event name="OnCreateTask"/>
+				<Event name="OnExecute"/>
+				<Event name="CheckExecutionProcessing"/>
+				<Event name="BeforeExecute"/>
+				<Event name="BeforeExecuteInteractively"/>
+			</Events>
+		</ActionPoint>
+		<Connector id="11">
+			<Properties>
+				<Code>Линия5</Code>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>11</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNum>0</GroupNum>
+				<ZOrder>8</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<TextFont xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" ref="sys:DefaultGUIFont" kind="WindowsFont"/>
+				<TextHAlign>Center</TextHAlign>
+				<TextVAlign>Center</TextVAlign>
+				<PicturePlacement>Left</PicturePlacement>
+				<Point x="250" y="380"/>
+				<Point x="250" y="400"/>
+				<Point x="250" y="400"/>
+				<Point x="250" y="420"/>
+				<LineStyle width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</LineStyle>
+				<ConnectFrom>НачальникIT</ConnectFrom>
+				<ConnectFromPortIndex>0</ConnectFromPortIndex>
+				<ConnectTo>Завершение</ConnectTo>
+				<DecorativeLine>false</DecorativeLine>
+				<PortIndexFrom>4</PortIndexFrom>
+				<PortIndexTo>2</PortIndexTo>
+				<TextPos>FirstSegment</TextPos>
+				<BeginArrowStyle>None</BeginArrowStyle>
+				<EndArrowStyle>Filled</EndArrowStyle>
+			</Properties>
+		</Connector>
+	</Items>
+</FlowChartSchema>

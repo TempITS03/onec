@@ -1,0 +1,1798 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Attributes>
+		<Attribute id="1">
+			<Name>НаборКонстант</Name>
+			<Title/>
+			<Type>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ConstantsSet</v8:Type>
+			</Type>
+			<Accessibility>
+				<xr:common>true</xr:common>
+			</Accessibility>
+			<Editing>
+				<xr:common>true</xr:common>
+			</Editing>
+			<Content/>
+			<SavingContent/>
+			<MainProperty>true</MainProperty>
+			<StoredData>true</StoredData>
+			<FunctionalOptions/>
+			<FillCheck>DontCheck</FillCheck>
+			<Columns/>
+			<ExtInfo/>
+		</Attribute>
+		<Attribute id="2">
+			<Name>ПолеПриоритетныйБанкЗагрузки</Name>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поле приоритетный банк загрузки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>10</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Accessibility>
+				<xr:common>true</xr:common>
+			</Accessibility>
+			<Editing>
+				<xr:common>true</xr:common>
+			</Editing>
+			<Content/>
+			<SavingContent/>
+			<MainProperty>false</MainProperty>
+			<StoredData>false</StoredData>
+			<FunctionalOptions/>
+			<FillCheck>DontCheck</FillCheck>
+			<Columns/>
+			<ExtInfo/>
+		</Attribute>
+		<ConditionalAppearance/>
+	</Attributes>
+	<Commands/>
+	<Parameters/>
+	<Elements id="0:02023637-7868-4a5f-8576-835a76e0c9ba">
+		<Properties>
+			<Title/>
+			<Width>0</Width>
+			<Height>0</Height>
+			<OpeningMode>LockOwnerWindow</OpeningMode>
+			<EnterKeyBehavior>ControlNavigation</EnterKeyBehavior>
+			<AutoSaveFormDataInSettings>DontUse</AutoSaveFormDataInSettings>
+			<SaveFormDataInSettings>DontUse</SaveFormDataInSettings>
+			<SettingsStorage/>
+			<AutoTitle>true</AutoTitle>
+			<AutoURL>true</AutoURL>
+			<ChildrenGrouping>Vertical</ChildrenGrouping>
+			<ChildItemsWidth>Auto</ChildItemsWidth>
+			<AutoFillCheck>true</AutoFillCheck>
+			<Customizable>true</Customizable>
+			<Enabled>true</Enabled>
+			<ReadOnly>false</ReadOnly>
+			<CommandBarLocation>Auto</CommandBarLocation>
+			<VerticalScrolling>useIfNecessary</VerticalScrolling>
+			<CommandsContent/>
+		</Properties>
+		<Events>
+			<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+			<Event name="OnOpen"/>
+			<Event name="OnReopen"/>
+			<Event name="BeforeClose"/>
+			<Event name="OnClose"/>
+			<Event name="ChoiceProcessing"/>
+			<Event name="NotificationProcessing"/>
+			<Event name="ActivationProcessing"/>
+			<Event name="NewWriteProcessing"/>
+			<Event name="OnReadAtServer"/>
+			<Event name="BeforeWrite">ПередЗаписью</Event>
+			<Event name="BeforeWriteAtServer"/>
+			<Event name="OnWriteAtServer"/>
+			<Event name="AfterWriteAtServer"/>
+			<Event name="AfterWrite"/>
+			<Event name="FillCheckProcessingAtServer"/>
+			<Event name="ExternalEvent"/>
+			<Event name="OnSaveDataInSettingsAtServer"/>
+			<Event name="BeforeLoadDataFromSettingsAtServer"/>
+			<Event name="OnLoadDataFromSettingsAtServer"/>
+			<Event name="URLProcessing"/>
+		</Events>
+		<PredefinedContainedItems>
+			<CommandBar xsi:type="AutoMenuGroup" id="-1:02023637-7868-4a5f-8576-835a76e0c9ba">
+				<Properties>
+					<Name>ФормаКоманднаяПанель</Name>
+					<Type>AutoCommandBar</Type>
+					<Visible>true</Visible>
+					<UserVisible>
+						<xr:common>true</xr:common>
+					</UserVisible>
+					<Enabled>true</Enabled>
+					<ReadOnly>false</ReadOnly>
+					<EnableContentChange>false</EnableContentChange>
+					<Title/>
+					<TitleTextColor>auto</TitleTextColor>
+					<TitleFont kind="AutoFont"/>
+					<ToolTip/>
+					<ToolTipRepresentation>Auto</ToolTipRepresentation>
+					<Shortcut/>
+					<Width>0</Width>
+					<Height>0</Height>
+					<HorizontalStretch>auto</HorizontalStretch>
+					<VerticalStretch>auto</VerticalStretch>
+					<HorAlignment>Left</HorAlignment>
+					<FillWithStdCommands>true</FillWithStdCommands>
+				</Properties>
+				<PredefinedContainedItems/>
+				<ContainedItems/>
+			</CommandBar>
+		</PredefinedContainedItems>
+		<ContainedItems>
+			<Pages id="3:02023637-7868-4a5f-8576-835a76e0c9ba">
+				<Properties>
+					<Name>СтраницыВыбора</Name>
+					<Type>Pages</Type>
+					<Visible>true</Visible>
+					<UserVisible>
+						<xr:common>true</xr:common>
+					</UserVisible>
+					<Enabled>true</Enabled>
+					<ReadOnly>false</ReadOnly>
+					<EnableContentChange>false</EnableContentChange>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страницы выбора</v8:content>
+						</v8:item>
+					</Title>
+					<TitleTextColor>auto</TitleTextColor>
+					<TitleFont kind="AutoFont"/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страницы выбора</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ToolTipRepresentation>Auto</ToolTipRepresentation>
+					<Shortcut/>
+					<Width>0</Width>
+					<Height>0</Height>
+					<HorizontalStretch>auto</HorizontalStretch>
+					<VerticalStretch>auto</VerticalStretch>
+					<PagesRepresentation>TabsOnTop</PagesRepresentation>
+				</Properties>
+				<Events>
+					<Event name="OnCurrentPageChange"/>
+				</Events>
+				<PredefinedContainedItems>
+					<ExtTooltip xsi:type="TextDecoration" id="23:02023637-7868-4a5f-8576-835a76e0c9ba">
+						<Properties>
+							<Name>СтраницыВыбораExtendedTooltip</Name>
+							<Kind>Label</Kind>
+							<Visible>true</Visible>
+							<UserVisible>
+								<xr:common>true</xr:common>
+							</UserVisible>
+							<Enabled>true</Enabled>
+							<Width>0</Width>
+							<Height>0</Height>
+							<HorStretchable>auto</HorStretchable>
+							<VertStretchable>auto</VertStretchable>
+							<SkipOnInput>auto</SkipOnInput>
+							<TextColor>auto</TextColor>
+							<Font kind="AutoFont"/>
+							<ShortCut/>
+							<Title/>
+							<Tooltip/>
+							<TooltipRepresentation>Auto</TooltipRepresentation>
+							<HyperLink>false</HyperLink>
+							<HorAlignment>Left</HorAlignment>
+							<VertAlignment>Auto</VertAlignment>
+							<TitleHeight>0</TitleHeight>
+							<BackColor>auto</BackColor>
+							<BorderColor>auto</BorderColor>
+							<Border width="1">
+								<style xmlns="http://v8.1c.ru/8.1/data/ui" xsi:type="ControlBorderType">WithoutBorder</style>
+							</Border>
+						</Properties>
+						<Events>
+							<Event name="Click"/>
+							<Event name="URLProcessing"/>
+						</Events>
+						<PredefinedContainedItems/>
+					</ExtTooltip>
+				</PredefinedContainedItems>
+				<ContainedItems>
+					<Page id="12:02023637-7868-4a5f-8576-835a76e0c9ba">
+						<Properties>
+							<Name>Общие</Name>
+							<Type>Page</Type>
+							<Visible>true</Visible>
+							<UserVisible>
+								<xr:common>true</xr:common>
+							</UserVisible>
+							<Enabled>true</Enabled>
+							<ReadOnly>false</ReadOnly>
+							<EnableContentChange>false</EnableContentChange>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Общие</v8:content>
+								</v8:item>
+							</Title>
+							<TitleTextColor>auto</TitleTextColor>
+							<TitleFont kind="AutoFont"/>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Общие</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Auto</ToolTipRepresentation>
+							<Shortcut/>
+							<Width>0</Width>
+							<Height>0</Height>
+							<HorizontalStretch>auto</HorizontalStretch>
+							<VerticalStretch>auto</VerticalStretch>
+							<Picture/>
+							<Grouping>Vertical</Grouping>
+							<ChildrenWidth>Auto</ChildrenWidth>
+							<Format/>
+							<ShowTitle>true</ShowTitle>
+							<TitleAttribute/>
+							<BackColor>auto</BackColor>
+						</Properties>
+						<PredefinedContainedItems>
+							<ExtTooltip xsi:type="TextDecoration" id="24:02023637-7868-4a5f-8576-835a76e0c9ba">
+								<Properties>
+									<Name>ОбщиеExtendedTooltip</Name>
+									<Kind>Label</Kind>
+									<Visible>true</Visible>
+									<UserVisible>
+										<xr:common>true</xr:common>
+									</UserVisible>
+									<Enabled>true</Enabled>
+									<Width>0</Width>
+									<Height>0</Height>
+									<HorStretchable>auto</HorStretchable>
+									<VertStretchable>auto</VertStretchable>
+									<SkipOnInput>auto</SkipOnInput>
+									<TextColor>auto</TextColor>
+									<Font kind="AutoFont"/>
+									<ShortCut/>
+									<Title/>
+									<Tooltip/>
+									<TooltipRepresentation>Auto</TooltipRepresentation>
+									<HyperLink>false</HyperLink>
+									<HorAlignment>Left</HorAlignment>
+									<VertAlignment>Auto</VertAlignment>
+									<TitleHeight>0</TitleHeight>
+									<BackColor>auto</BackColor>
+									<BorderColor>auto</BorderColor>
+									<Border width="1">
+										<style xmlns="http://v8.1c.ru/8.1/data/ui" xsi:type="ControlBorderType">WithoutBorder</style>
+									</Border>
+								</Properties>
+								<Events>
+									<Event name="Click"/>
+									<Event name="URLProcessing"/>
+								</Events>
+								<PredefinedContainedItems/>
+							</ExtTooltip>
+						</PredefinedContainedItems>
+						<ContainedItems>
+							<Group id="13:02023637-7868-4a5f-8576-835a76e0c9ba">
+								<Properties>
+									<Name>ОбновлениеКурсов</Name>
+									<Type>UsualGroup</Type>
+									<Visible>true</Visible>
+									<UserVisible>
+										<xr:common>true</xr:common>
+									</UserVisible>
+									<Enabled>true</Enabled>
+									<ReadOnly>false</ReadOnly>
+									<EnableContentChange>false</EnableContentChange>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Автоматически обновлять курсы валют</v8:content>
+										</v8:item>
+									</Title>
+									<TitleTextColor>auto</TitleTextColor>
+									<TitleFont kind="AutoFont"/>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Обновление курсов</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Auto</ToolTipRepresentation>
+									<Shortcut/>
+									<Width>0</Width>
+									<Height>0</Height>
+									<HorizontalStretch>true</HorizontalStretch>
+									<VerticalStretch>auto</VerticalStretch>
+									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
+									<CollapsedRepresentationTitle/>
+									<Collapsed>false</Collapsed>
+									<ControlRepresentation>TitleHyperlink</ControlRepresentation>
+									<Representation>WeakSeparation</Representation>
+									<ShowLeftMargin>true</ShowLeftMargin>
+									<ChildItemsWidth>Auto</ChildItemsWidth>
+									<Format/>
+									<ShowTitle>true</ShowTitle>
+									<TitleDataPath/>
+									<BackColor>auto</BackColor>
+								</Properties>
+								<PredefinedContainedItems>
+									<ExtTooltip xsi:type="TextDecoration" id="25:02023637-7868-4a5f-8576-835a76e0c9ba">
+										<Properties>
+											<Name>ОбновлениеКурсовExtendedTooltip</Name>
+											<Kind>Label</Kind>
+											<Visible>true</Visible>
+											<UserVisible>
+												<xr:common>true</xr:common>
+											</UserVisible>
+											<Enabled>true</Enabled>
+											<Width>0</Width>
+											<Height>0</Height>
+											<HorStretchable>auto</HorStretchable>
+											<VertStretchable>auto</VertStretchable>
+											<SkipOnInput>auto</SkipOnInput>
+											<TextColor>auto</TextColor>
+											<Font kind="AutoFont"/>
+											<ShortCut/>
+											<Title/>
+											<Tooltip/>
+											<TooltipRepresentation>Auto</TooltipRepresentation>
+											<HyperLink>false</HyperLink>
+											<HorAlignment>Left</HorAlignment>
+											<VertAlignment>Auto</VertAlignment>
+											<TitleHeight>0</TitleHeight>
+											<BackColor>auto</BackColor>
+											<BorderColor>auto</BorderColor>
+											<Border width="1">
+												<style xmlns="http://v8.1c.ru/8.1/data/ui" xsi:type="ControlBorderType">WithoutBorder</style>
+											</Border>
+										</Properties>
+										<Events>
+											<Event name="Click"/>
+											<Event name="URLProcessing"/>
+										</Events>
+										<PredefinedContainedItems/>
+									</ExtTooltip>
+								</PredefinedContainedItems>
+								<ContainedItems>
+									<Group id="20:02023637-7868-4a5f-8576-835a76e0c9ba">
+										<Properties>
+											<Name>Группа1</Name>
+											<Type>UsualGroup</Type>
+											<Visible>true</Visible>
+											<UserVisible>
+												<xr:common>true</xr:common>
+											</UserVisible>
+											<Enabled>true</Enabled>
+											<ReadOnly>false</ReadOnly>
+											<EnableContentChange>false</EnableContentChange>
+											<Title/>
+											<TitleTextColor>auto</TitleTextColor>
+											<TitleFont kind="AutoFont"/>
+											<ToolTip/>
+											<ToolTipRepresentation>Auto</ToolTipRepresentation>
+											<Shortcut/>
+											<Width>0</Width>
+											<Height>0</Height>
+											<HorizontalStretch>auto</HorizontalStretch>
+											<VerticalStretch>auto</VerticalStretch>
+											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
+											<CollapsedRepresentationTitle/>
+											<Collapsed>false</Collapsed>
+											<ControlRepresentation>TitleHyperlink</ControlRepresentation>
+											<Representation>None</Representation>
+											<ShowLeftMargin>true</ShowLeftMargin>
+											<ChildItemsWidth>Auto</ChildItemsWidth>
+											<Format/>
+											<ShowTitle>false</ShowTitle>
+											<TitleDataPath/>
+											<BackColor>auto</BackColor>
+										</Properties>
+										<PredefinedContainedItems>
+											<ExtTooltip xsi:type="TextDecoration" id="26:02023637-7868-4a5f-8576-835a76e0c9ba">
+												<Properties>
+													<Name>Группа1ExtendedTooltip</Name>
+													<Kind>Label</Kind>
+													<Visible>true</Visible>
+													<UserVisible>
+														<xr:common>true</xr:common>
+													</UserVisible>
+													<Enabled>true</Enabled>
+													<Width>0</Width>
+													<Height>0</Height>
+													<HorStretchable>auto</HorStretchable>
+													<VertStretchable>auto</VertStretchable>
+													<SkipOnInput>auto</SkipOnInput>
+													<TextColor>auto</TextColor>
+													<Font kind="AutoFont"/>
+													<ShortCut/>
+													<Title/>
+													<Tooltip/>
+													<TooltipRepresentation>Auto</TooltipRepresentation>
+													<HyperLink>false</HyperLink>
+													<HorAlignment>Left</HorAlignment>
+													<VertAlignment>Auto</VertAlignment>
+													<TitleHeight>0</TitleHeight>
+													<BackColor>auto</BackColor>
+													<BorderColor>auto</BorderColor>
+													<Border width="1">
+														<style xmlns="http://v8.1c.ru/8.1/data/ui" xsi:type="ControlBorderType">WithoutBorder</style>
+													</Border>
+												</Properties>
+												<Events>
+													<Event name="Click"/>
+													<Event name="URLProcessing"/>
+												</Events>
+												<PredefinedContainedItems/>
+											</ExtTooltip>
+										</PredefinedContainedItems>
+										<ContainedItems>
+											<Input id="21:02023637-7868-4a5f-8576-835a76e0c9ba">
+												<Properties>
+													<Name>ПолеПриоритетныйБанкЗагрузки</Name>
+													<Type>InputField</Type>
+													<DataPath>ПолеПриоритетныйБанкЗагрузки</DataPath>
+													<Visible>true</Visible>
+													<UserVisible>
+														<xr:common>true</xr:common>
+													</UserVisible>
+													<DefaultItem>false</DefaultItem>
+													<Enabled>true</Enabled>
+													<ReadOnly>false</ReadOnly>
+													<SkipOnInput>auto</SkipOnInput>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Приоритетный банк</v8:content>
+														</v8:item>
+													</Title>
+													<TitleTextColor>auto</TitleTextColor>
+													<TitleBackColor>auto</TitleBackColor>
+													<TitleFont kind="AutoFont"/>
+													<TitleLocation>Auto</TitleLocation>
+													<TitleHeight>0</TitleHeight>
+													<ToolTip/>
+													<ToolTipRepresentation>Auto</ToolTipRepresentation>
+													<WarningOnEditRepresentation>Auto</WarningOnEditRepresentation>
+													<WarningOnEdit/>
+													<Shortcut/>
+													<CommandsContent/>
+													<HorizontalAlign>Auto</HorizontalAlign>
+													<VerticalAlign>Auto</VerticalAlign>
+													<EditMode>Enter</EditMode>
+													<FixingInTable>None</FixingInTable>
+													<CellHyperlink>false</CellHyperlink>
+													<AutoCellHeight>false</AutoCellHeight>
+													<ShowInHeader>true</ShowInHeader>
+													<HeaderPicture/>
+													<HeaderHorizontalAlign>Left</HeaderHorizontalAlign>
+													<ShowInFooter>true</ShowInFooter>
+													<FooterDataPath/>
+													<FooterText/>
+													<FooterTextColor>auto</FooterTextColor>
+													<FooterBackColor>auto</FooterBackColor>
+													<FooterFont kind="AutoFont"/>
+													<FooterPicture/>
+													<FooterHorizontalAlign>Auto</FooterHorizontalAlign>
+													<Width>0</Width>
+													<RowsCount>0</RowsCount>
+													<HorizontalStretchable>auto</HorizontalStretchable>
+													<VerticalStretchable>auto</VerticalStretchable>
+													<Wrap>true</Wrap>
+													<PasswordMode>auto</PasswordMode>
+													<MultiLine>auto</MultiLine>
+													<ExtendedEdit>auto</ExtendedEdit>
+													<MarkNegatives>auto</MarkNegatives>
+													<ChoiceListButton>true</ChoiceListButton>
+													<DropListButton>auto</DropListButton>
+													<ChoiceButton>auto</ChoiceButton>
+													<ChoiceButtonRepresentation>Auto</ChoiceButtonRepresentation>
+													<ClearButton>auto</ClearButton>
+													<SpinButton>auto</SpinButton>
+													<OpenButton>auto</OpenButton>
+													<CreateButton>auto</CreateButton>
+													<Mask/>
+													<ListChoiceMode>false</ListChoiceMode>
+													<AutoChoiceIncomplete>auto</AutoChoiceIncomplete>
+													<QuickChoice>auto</QuickChoice>
+													<ChoiceObjects>Auto</ChoiceObjects>
+													<Format/>
+													<InputFormat/>
+													<AutoMarkIncomplete>auto</AutoMarkIncomplete>
+													<ChoiceType>true</ChoiceType>
+													<IncompleteChoiceMode>OnEnterPressed</IncompleteChoiceMode>
+													<TypeDomainEnabled>true</TypeDomainEnabled>
+													<TextEdit>true</TextEdit>
+													<EditTextUpdateMode>Auto</EditTextUpdateMode>
+													<MinVal xsi:nil="true"/>
+													<MaxVal xsi:nil="true"/>
+													<ChoiceButtonPicture/>
+													<ChoiceForm/>
+													<ChoiceParamLinks/>
+													<ChoiceParams/>
+													<AvailableTypes/>
+													<ValueList>
+														<xr:item>
+															<xr:presentation/>
+															<xr:checkState>0</xr:checkState>
+															<xr:value xsi:type="LogFormChoiceListDesTimeValue">
+																<Presentation>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>НБУ</v8:content>
+																	</v8:item>
+																</Presentation>
+																<Value xsi:type="xs:string">НБУ</Value>
+															</xr:value>
+														</xr:item>
+														<xr:item>
+															<xr:presentation/>
+															<xr:checkState>0</xr:checkState>
+															<xr:value xsi:type="LogFormChoiceListDesTimeValue">
+																<Presentation>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>РБК</v8:content>
+																	</v8:item>
+																</Presentation>
+																<Value xsi:type="xs:string">РБК</Value>
+															</xr:value>
+														</xr:item>
+													</ValueList>
+													<TextColor>auto</TextColor>
+													<BackColor>auto</BackColor>
+													<BorderColor>auto</BorderColor>
+													<Font kind="AutoFont"/>
+													<LinkByType/>
+													<InputHint/>
+												</Properties>
+												<Events>
+													<Event name="OnChange"/>
+													<Event name="StartChoice"/>
+													<Event name="StartListChoice"/>
+													<Event name="Clearing"/>
+													<Event name="Tuning"/>
+													<Event name="Opening"/>
+													<Event name="Creating"/>
+													<Event name="ChoiceProcessing"/>
+													<Event name="AutoComplete"/>
+													<Event name="TextEditEnd"/>
+												</Events>
+												<PredefinedContainedItems>
+													<ContextMenu xsi:type="ContextMenuGroup" id="22:02023637-7868-4a5f-8576-835a76e0c9ba">
+														<Properties>
+															<Name>ПолеПриоритетныйБанкЗагрузкиКонтекстноеМеню</Name>
+															<Type>ContextMenu</Type>
+															<Visible>true</Visible>
+															<UserVisible>
+																<xr:common>true</xr:common>
+															</UserVisible>
+															<Enabled>true</Enabled>
+															<ReadOnly>false</ReadOnly>
+															<EnableContentChange>false</EnableContentChange>
+															<Title/>
+															<TitleTextColor>auto</TitleTextColor>
+															<TitleFont kind="AutoFont"/>
+															<ToolTip/>
+															<ToolTipRepresentation>Auto</ToolTipRepresentation>
+															<Shortcut/>
+															<Width>0</Width>
+															<Height>0</Height>
+															<HorizontalStretch>auto</HorizontalStretch>
+															<VerticalStretch>auto</VerticalStretch>
+															<FillWithStdCommands>true</FillWithStdCommands>
+														</Properties>
+														<PredefinedContainedItems/>
+														<ContainedItems/>
+													</ContextMenu>
+													<ExtTooltip xsi:type="TextDecoration" id="27:02023637-7868-4a5f-8576-835a76e0c9ba">
+														<Properties>
+															<Name>ПолеПриоритетныйБанкЗагрузкиExtendedTooltip</Name>
+															<Kind>Label</Kind>
+															<Visible>true</Visible>
+															<UserVisible>
+																<xr:common>true</xr:common>
+															</UserVisible>
+															<Enabled>true</Enabled>
+															<Width>0</Width>
+															<Height>0</Height>
+															<HorStretchable>auto</HorStretchable>
+															<VertStretchable>auto</VertStretchable>
+															<SkipOnInput>auto</SkipOnInput>
+															<TextColor>auto</TextColor>
+															<Font kind="AutoFont"/>
+															<ShortCut/>
+															<Title/>
+															<Tooltip/>
+															<TooltipRepresentation>Auto</TooltipRepresentation>
+															<HyperLink>false</HyperLink>
+															<HorAlignment>Left</HorAlignment>
+															<VertAlignment>Auto</VertAlignment>
+															<TitleHeight>0</TitleHeight>
+															<BackColor>auto</BackColor>
+															<BorderColor>auto</BorderColor>
+															<Border width="1">
+																<style xmlns="http://v8.1c.ru/8.1/data/ui" xsi:type="ControlBorderType">WithoutBorder</style>
+															</Border>
+														</Properties>
+														<Events>
+															<Event name="Click"/>
+															<Event name="URLProcessing"/>
+														</Events>
+														<PredefinedContainedItems/>
+													</ExtTooltip>
+												</PredefinedContainedItems>
+											</Input>
+										</ContainedItems>
+									</Group>
+									<CheckBox id="14:02023637-7868-4a5f-8576-835a76e0c9ba">
+										<Properties>
+											<Name>АвтоматическиПолучатьКурсыВалютПриНачалеРаботы</Name>
+											<Type>CheckBoxField</Type>
+											<DataPath>НаборКонстант.АвтоматическиПолучатьКурсыВалютПриНачалеРаботы</DataPath>
+											<Visible>true</Visible>
+											<UserVisible>
+												<xr:common>true</xr:common>
+											</UserVisible>
+											<DefaultItem>false</DefaultItem>
+											<Enabled>true</Enabled>
+											<ReadOnly>false</ReadOnly>
+											<SkipOnInput>auto</SkipOnInput>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>При начале работы системы</v8:content>
+												</v8:item>
+											</Title>
+											<TitleTextColor>auto</TitleTextColor>
+											<TitleBackColor>auto</TitleBackColor>
+											<TitleFont kind="AutoFont"/>
+											<TitleLocation>Auto</TitleLocation>
+											<TitleHeight>0</TitleHeight>
+											<ToolTip/>
+											<ToolTipRepresentation>Auto</ToolTipRepresentation>
+											<WarningOnEditRepresentation>Auto</WarningOnEditRepresentation>
+											<WarningOnEdit/>
+											<Shortcut/>
+											<CommandsContent/>
+											<HorizontalAlign>Auto</HorizontalAlign>
+											<VerticalAlign>Auto</VerticalAlign>
+											<EditMode>Enter</EditMode>
+											<FixingInTable>None</FixingInTable>
+											<CellHyperlink>false</CellHyperlink>
+											<AutoCellHeight>false</AutoCellHeight>
+											<ShowInHeader>true</ShowInHeader>
+											<HeaderPicture/>
+											<HeaderHorizontalAlign>Left</HeaderHorizontalAlign>
+											<ShowInFooter>true</ShowInFooter>
+											<FooterDataPath/>
+											<FooterText/>
+											<FooterTextColor>auto</FooterTextColor>
+											<FooterBackColor>auto</FooterBackColor>
+											<FooterFont kind="AutoFont"/>
+											<FooterPicture/>
+											<FooterHorizontalAlign>Auto</FooterHorizontalAlign>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ThreeState>false</ThreeState>
+											<BorderColor>auto</BorderColor>
+											<EqualElementsWidth>auto</EqualElementsWidth>
+										</Properties>
+										<Events>
+											<Event name="OnChange"/>
+										</Events>
+										<PredefinedContainedItems>
+											<ContextMenu xsi:type="ContextMenuGroup" id="15:02023637-7868-4a5f-8576-835a76e0c9ba">
+												<Properties>
+													<Name>АвтоматическиПолучатьКурсыВалютПриНачалеРаботыКонтекстноеМеню</Name>
+													<Type>ContextMenu</Type>
+													<Visible>true</Visible>
+													<UserVisible>
+														<xr:common>true</xr:common>
+													</UserVisible>
+													<Enabled>true</Enabled>
+													<ReadOnly>false</ReadOnly>
+													<EnableContentChange>false</EnableContentChange>
+													<Title/>
+													<TitleTextColor>auto</TitleTextColor>
+													<TitleFont kind="AutoFont"/>
+													<ToolTip/>
+													<ToolTipRepresentation>Auto</ToolTipRepresentation>
+													<Shortcut/>
+													<Width>0</Width>
+													<Height>0</Height>
+													<HorizontalStretch>auto</HorizontalStretch>
+													<VerticalStretch>auto</VerticalStretch>
+													<FillWithStdCommands>true</FillWithStdCommands>
+												</Properties>
+												<PredefinedContainedItems/>
+												<ContainedItems/>
+											</ContextMenu>
+											<ExtTooltip xsi:type="TextDecoration" id="28:02023637-7868-4a5f-8576-835a76e0c9ba">
+												<Properties>
+													<Name>АвтоматическиПолучатьКурсыВалютПриНачалеРаботыExtendedTooltip</Name>
+													<Kind>Label</Kind>
+													<Visible>true</Visible>
+													<UserVisible>
+														<xr:common>true</xr:common>
+													</UserVisible>
+													<Enabled>true</Enabled>
+													<Width>0</Width>
+													<Height>0</Height>
+													<HorStretchable>auto</HorStretchable>
+													<VertStretchable>auto</VertStretchable>
+													<SkipOnInput>auto</SkipOnInput>
+													<TextColor>auto</TextColor>
+													<Font kind="AutoFont"/>
+													<ShortCut/>
+													<Title/>
+													<Tooltip/>
+													<TooltipRepresentation>Auto</TooltipRepresentation>
+													<HyperLink>false</HyperLink>
+													<HorAlignment>Left</HorAlignment>
+													<VertAlignment>Auto</VertAlignment>
+													<TitleHeight>0</TitleHeight>
+													<BackColor>auto</BackColor>
+													<BorderColor>auto</BorderColor>
+													<Border width="1">
+														<style xmlns="http://v8.1c.ru/8.1/data/ui" xsi:type="ControlBorderType">WithoutBorder</style>
+													</Border>
+												</Properties>
+												<Events>
+													<Event name="Click"/>
+													<Event name="URLProcessing"/>
+												</Events>
+												<PredefinedContainedItems/>
+											</ExtTooltip>
+										</PredefinedContainedItems>
+									</CheckBox>
+									<CheckBox id="16:02023637-7868-4a5f-8576-835a76e0c9ba">
+										<Properties>
+											<Name>АвтоматическиПолучатьКурсыВалютПриЗавершенииРаботы</Name>
+											<Type>CheckBoxField</Type>
+											<DataPath>НаборКонстант.АвтоматическиПолучатьКурсыВалютПриЗавершенииРаботы</DataPath>
+											<Visible>true</Visible>
+											<UserVisible>
+												<xr:common>true</xr:common>
+											</UserVisible>
+											<DefaultItem>false</DefaultItem>
+											<Enabled>true</Enabled>
+											<ReadOnly>false</ReadOnly>
+											<SkipOnInput>auto</SkipOnInput>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>При завершении работы системы</v8:content>
+												</v8:item>
+											</Title>
+											<TitleTextColor>auto</TitleTextColor>
+											<TitleBackColor>auto</TitleBackColor>
+											<TitleFont kind="AutoFont"/>
+											<TitleLocation>Auto</TitleLocation>
+											<TitleHeight>0</TitleHeight>
+											<ToolTip/>
+											<ToolTipRepresentation>Auto</ToolTipRepresentation>
+											<WarningOnEditRepresentation>Auto</WarningOnEditRepresentation>
+											<WarningOnEdit/>
+											<Shortcut/>
+											<CommandsContent/>
+											<HorizontalAlign>Auto</HorizontalAlign>
+											<VerticalAlign>Auto</VerticalAlign>
+											<EditMode>Enter</EditMode>
+											<FixingInTable>None</FixingInTable>
+											<CellHyperlink>false</CellHyperlink>
+											<AutoCellHeight>false</AutoCellHeight>
+											<ShowInHeader>true</ShowInHeader>
+											<HeaderPicture/>
+											<HeaderHorizontalAlign>Left</HeaderHorizontalAlign>
+											<ShowInFooter>true</ShowInFooter>
+											<FooterDataPath/>
+											<FooterText/>
+											<FooterTextColor>auto</FooterTextColor>
+											<FooterBackColor>auto</FooterBackColor>
+											<FooterFont kind="AutoFont"/>
+											<FooterPicture/>
+											<FooterHorizontalAlign>Auto</FooterHorizontalAlign>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ThreeState>false</ThreeState>
+											<BorderColor>auto</BorderColor>
+											<EqualElementsWidth>auto</EqualElementsWidth>
+										</Properties>
+										<Events>
+											<Event name="OnChange"/>
+										</Events>
+										<PredefinedContainedItems>
+											<ContextMenu xsi:type="ContextMenuGroup" id="17:02023637-7868-4a5f-8576-835a76e0c9ba">
+												<Properties>
+													<Name>АвтоматическиПолучатьКурсыВалютПриЗавершенииРаботыКонтекстноеМеню</Name>
+													<Type>ContextMenu</Type>
+													<Visible>true</Visible>
+													<UserVisible>
+														<xr:common>true</xr:common>
+													</UserVisible>
+													<Enabled>true</Enabled>
+													<ReadOnly>false</ReadOnly>
+													<EnableContentChange>false</EnableContentChange>
+													<Title/>
+													<TitleTextColor>auto</TitleTextColor>
+													<TitleFont kind="AutoFont"/>
+													<ToolTip/>
+													<ToolTipRepresentation>Auto</ToolTipRepresentation>
+													<Shortcut/>
+													<Width>0</Width>
+													<Height>0</Height>
+													<HorizontalStretch>auto</HorizontalStretch>
+													<VerticalStretch>auto</VerticalStretch>
+													<FillWithStdCommands>true</FillWithStdCommands>
+												</Properties>
+												<PredefinedContainedItems/>
+												<ContainedItems/>
+											</ContextMenu>
+											<ExtTooltip xsi:type="TextDecoration" id="29:02023637-7868-4a5f-8576-835a76e0c9ba">
+												<Properties>
+													<Name>АвтоматическиПолучатьКурсыВалютПриЗавершенииРаботыExtendedTooltip</Name>
+													<Kind>Label</Kind>
+													<Visible>true</Visible>
+													<UserVisible>
+														<xr:common>true</xr:common>
+													</UserVisible>
+													<Enabled>true</Enabled>
+													<Width>0</Width>
+													<Height>0</Height>
+													<HorStretchable>auto</HorStretchable>
+													<VertStretchable>auto</VertStretchable>
+													<SkipOnInput>auto</SkipOnInput>
+													<TextColor>auto</TextColor>
+													<Font kind="AutoFont"/>
+													<ShortCut/>
+													<Title/>
+													<Tooltip/>
+													<TooltipRepresentation>Auto</TooltipRepresentation>
+													<HyperLink>false</HyperLink>
+													<HorAlignment>Left</HorAlignment>
+													<VertAlignment>Auto</VertAlignment>
+													<TitleHeight>0</TitleHeight>
+													<BackColor>auto</BackColor>
+													<BorderColor>auto</BorderColor>
+													<Border width="1">
+														<style xmlns="http://v8.1c.ru/8.1/data/ui" xsi:type="ControlBorderType">WithoutBorder</style>
+													</Border>
+												</Properties>
+												<Events>
+													<Event name="Click"/>
+													<Event name="URLProcessing"/>
+												</Events>
+												<PredefinedContainedItems/>
+											</ExtTooltip>
+										</PredefinedContainedItems>
+									</CheckBox>
+								</ContainedItems>
+							</Group>
+						</ContainedItems>
+					</Page>
+					<Page id="4:02023637-7868-4a5f-8576-835a76e0c9ba">
+						<Properties>
+							<Name>ОбменДанными</Name>
+							<Type>Page</Type>
+							<Visible>true</Visible>
+							<UserVisible>
+								<xr:common>true</xr:common>
+							</UserVisible>
+							<Enabled>true</Enabled>
+							<ReadOnly>false</ReadOnly>
+							<EnableContentChange>false</EnableContentChange>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Обмен данными</v8:content>
+								</v8:item>
+							</Title>
+							<TitleTextColor>auto</TitleTextColor>
+							<TitleFont kind="AutoFont"/>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Обмен данными</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Auto</ToolTipRepresentation>
+							<Shortcut/>
+							<Width>0</Width>
+							<Height>0</Height>
+							<HorizontalStretch>auto</HorizontalStretch>
+							<VerticalStretch>auto</VerticalStretch>
+							<Picture/>
+							<Grouping>Vertical</Grouping>
+							<ChildrenWidth>Auto</ChildrenWidth>
+							<Format/>
+							<ShowTitle>true</ShowTitle>
+							<TitleAttribute/>
+							<BackColor>auto</BackColor>
+						</Properties>
+						<PredefinedContainedItems>
+							<ExtTooltip xsi:type="TextDecoration" id="30:02023637-7868-4a5f-8576-835a76e0c9ba">
+								<Properties>
+									<Name>ОбменДаннымиExtendedTooltip</Name>
+									<Kind>Label</Kind>
+									<Visible>true</Visible>
+									<UserVisible>
+										<xr:common>true</xr:common>
+									</UserVisible>
+									<Enabled>true</Enabled>
+									<Width>0</Width>
+									<Height>0</Height>
+									<HorStretchable>auto</HorStretchable>
+									<VertStretchable>auto</VertStretchable>
+									<SkipOnInput>auto</SkipOnInput>
+									<TextColor>auto</TextColor>
+									<Font kind="AutoFont"/>
+									<ShortCut/>
+									<Title/>
+									<Tooltip/>
+									<TooltipRepresentation>Auto</TooltipRepresentation>
+									<HyperLink>false</HyperLink>
+									<HorAlignment>Left</HorAlignment>
+									<VertAlignment>Auto</VertAlignment>
+									<TitleHeight>0</TitleHeight>
+									<BackColor>auto</BackColor>
+									<BorderColor>auto</BorderColor>
+									<Border width="1">
+										<style xmlns="http://v8.1c.ru/8.1/data/ui" xsi:type="ControlBorderType">WithoutBorder</style>
+									</Border>
+								</Properties>
+								<Events>
+									<Event name="Click"/>
+									<Event name="URLProcessing"/>
+								</Events>
+								<PredefinedContainedItems/>
+							</ExtTooltip>
+						</PredefinedContainedItems>
+						<ContainedItems>
+							<Input id="1:02023637-7868-4a5f-8576-835a76e0c9ba">
+								<Properties>
+									<Name>КаталогОбменаДанными</Name>
+									<Type>InputField</Type>
+									<DataPath>НаборКонстант.КаталогОбменаДанными</DataPath>
+									<Visible>true</Visible>
+									<UserVisible>
+										<xr:common>true</xr:common>
+									</UserVisible>
+									<DefaultItem>false</DefaultItem>
+									<Enabled>true</Enabled>
+									<ReadOnly>false</ReadOnly>
+									<SkipOnInput>auto</SkipOnInput>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Каталог обмена</v8:content>
+										</v8:item>
+									</Title>
+									<TitleTextColor>auto</TitleTextColor>
+									<TitleBackColor>auto</TitleBackColor>
+									<TitleFont kind="AutoFont"/>
+									<TitleLocation>Auto</TitleLocation>
+									<TitleHeight>0</TitleHeight>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Локальный ресурс где система хранит файл обмена.</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Auto</ToolTipRepresentation>
+									<WarningOnEditRepresentation>Auto</WarningOnEditRepresentation>
+									<WarningOnEdit/>
+									<Shortcut/>
+									<CommandsContent/>
+									<HorizontalAlign>Auto</HorizontalAlign>
+									<VerticalAlign>Auto</VerticalAlign>
+									<EditMode>Enter</EditMode>
+									<FixingInTable>None</FixingInTable>
+									<CellHyperlink>false</CellHyperlink>
+									<AutoCellHeight>false</AutoCellHeight>
+									<ShowInHeader>true</ShowInHeader>
+									<HeaderPicture/>
+									<HeaderHorizontalAlign>Left</HeaderHorizontalAlign>
+									<ShowInFooter>true</ShowInFooter>
+									<FooterDataPath/>
+									<FooterText/>
+									<FooterTextColor>auto</FooterTextColor>
+									<FooterBackColor>auto</FooterBackColor>
+									<FooterFont kind="AutoFont"/>
+									<FooterPicture/>
+									<FooterHorizontalAlign>Auto</FooterHorizontalAlign>
+									<Width>0</Width>
+									<RowsCount>0</RowsCount>
+									<HorizontalStretchable>auto</HorizontalStretchable>
+									<VerticalStretchable>auto</VerticalStretchable>
+									<Wrap>true</Wrap>
+									<PasswordMode>auto</PasswordMode>
+									<MultiLine>auto</MultiLine>
+									<ExtendedEdit>auto</ExtendedEdit>
+									<MarkNegatives>auto</MarkNegatives>
+									<ChoiceListButton>auto</ChoiceListButton>
+									<DropListButton>auto</DropListButton>
+									<ChoiceButton>true</ChoiceButton>
+									<ChoiceButtonRepresentation>Auto</ChoiceButtonRepresentation>
+									<ClearButton>auto</ClearButton>
+									<SpinButton>auto</SpinButton>
+									<OpenButton>auto</OpenButton>
+									<CreateButton>auto</CreateButton>
+									<Mask/>
+									<ListChoiceMode>false</ListChoiceMode>
+									<AutoChoiceIncomplete>auto</AutoChoiceIncomplete>
+									<QuickChoice>auto</QuickChoice>
+									<ChoiceObjects>Auto</ChoiceObjects>
+									<Format/>
+									<InputFormat/>
+									<AutoMarkIncomplete>auto</AutoMarkIncomplete>
+									<ChoiceType>true</ChoiceType>
+									<IncompleteChoiceMode>OnEnterPressed</IncompleteChoiceMode>
+									<TypeDomainEnabled>true</TypeDomainEnabled>
+									<TextEdit>true</TextEdit>
+									<EditTextUpdateMode>Auto</EditTextUpdateMode>
+									<MinVal xsi:nil="true"/>
+									<MaxVal xsi:nil="true"/>
+									<ChoiceButtonPicture/>
+									<ChoiceForm/>
+									<ChoiceParamLinks/>
+									<ChoiceParams/>
+									<AvailableTypes/>
+									<ValueList/>
+									<TextColor>auto</TextColor>
+									<BackColor>auto</BackColor>
+									<BorderColor>auto</BorderColor>
+									<Font kind="AutoFont"/>
+									<LinkByType/>
+									<InputHint/>
+								</Properties>
+								<Events>
+									<Event name="OnChange"/>
+									<Event name="StartChoice">КаталогОбменаДаннымиНачалоВыбора</Event>
+									<Event name="StartListChoice"/>
+									<Event name="Clearing"/>
+									<Event name="Tuning"/>
+									<Event name="Opening"/>
+									<Event name="Creating"/>
+									<Event name="ChoiceProcessing"/>
+									<Event name="AutoComplete"/>
+									<Event name="TextEditEnd"/>
+								</Events>
+								<PredefinedContainedItems>
+									<ContextMenu xsi:type="ContextMenuGroup" id="2:02023637-7868-4a5f-8576-835a76e0c9ba">
+										<Properties>
+											<Name>КаталогОбменаДаннымиКонтекстноеМеню</Name>
+											<Type>ContextMenu</Type>
+											<Visible>true</Visible>
+											<UserVisible>
+												<xr:common>true</xr:common>
+											</UserVisible>
+											<Enabled>true</Enabled>
+											<ReadOnly>false</ReadOnly>
+											<EnableContentChange>false</EnableContentChange>
+											<Title/>
+											<TitleTextColor>auto</TitleTextColor>
+											<TitleFont kind="AutoFont"/>
+											<ToolTip/>
+											<ToolTipRepresentation>Auto</ToolTipRepresentation>
+											<Shortcut/>
+											<Width>0</Width>
+											<Height>0</Height>
+											<HorizontalStretch>auto</HorizontalStretch>
+											<VerticalStretch>auto</VerticalStretch>
+											<FillWithStdCommands>true</FillWithStdCommands>
+										</Properties>
+										<PredefinedContainedItems/>
+										<ContainedItems/>
+									</ContextMenu>
+									<ExtTooltip xsi:type="TextDecoration" id="31:02023637-7868-4a5f-8576-835a76e0c9ba">
+										<Properties>
+											<Name>КаталогОбменаДаннымиExtendedTooltip</Name>
+											<Kind>Label</Kind>
+											<Visible>true</Visible>
+											<UserVisible>
+												<xr:common>true</xr:common>
+											</UserVisible>
+											<Enabled>true</Enabled>
+											<Width>0</Width>
+											<Height>0</Height>
+											<HorStretchable>auto</HorStretchable>
+											<VertStretchable>auto</VertStretchable>
+											<SkipOnInput>auto</SkipOnInput>
+											<TextColor>auto</TextColor>
+											<Font kind="AutoFont"/>
+											<ShortCut/>
+											<Title/>
+											<Tooltip/>
+											<TooltipRepresentation>Auto</TooltipRepresentation>
+											<HyperLink>false</HyperLink>
+											<HorAlignment>Left</HorAlignment>
+											<VertAlignment>Auto</VertAlignment>
+											<TitleHeight>0</TitleHeight>
+											<BackColor>auto</BackColor>
+											<BorderColor>auto</BorderColor>
+											<Border width="1">
+												<style xmlns="http://v8.1c.ru/8.1/data/ui" xsi:type="ControlBorderType">WithoutBorder</style>
+											</Border>
+										</Properties>
+										<Events>
+											<Event name="Click"/>
+											<Event name="URLProcessing"/>
+										</Events>
+										<PredefinedContainedItems/>
+									</ExtTooltip>
+								</PredefinedContainedItems>
+							</Input>
+							<Input id="18:02023637-7868-4a5f-8576-835a76e0c9ba">
+								<Properties>
+									<Name>ТипОбменаДанными</Name>
+									<Type>InputField</Type>
+									<DataPath>НаборКонстант.ТипОбменаДанными</DataPath>
+									<Visible>true</Visible>
+									<UserVisible>
+										<xr:common>true</xr:common>
+									</UserVisible>
+									<DefaultItem>false</DefaultItem>
+									<Enabled>true</Enabled>
+									<ReadOnly>false</ReadOnly>
+									<SkipOnInput>auto</SkipOnInput>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Тип обмена</v8:content>
+										</v8:item>
+									</Title>
+									<TitleTextColor>auto</TitleTextColor>
+									<TitleBackColor>auto</TitleBackColor>
+									<TitleFont kind="AutoFont"/>
+									<TitleLocation>Auto</TitleLocation>
+									<TitleHeight>0</TitleHeight>
+									<ToolTip/>
+									<ToolTipRepresentation>Auto</ToolTipRepresentation>
+									<WarningOnEditRepresentation>Auto</WarningOnEditRepresentation>
+									<WarningOnEdit/>
+									<Shortcut/>
+									<CommandsContent/>
+									<HorizontalAlign>Auto</HorizontalAlign>
+									<VerticalAlign>Auto</VerticalAlign>
+									<EditMode>Enter</EditMode>
+									<FixingInTable>None</FixingInTable>
+									<CellHyperlink>false</CellHyperlink>
+									<AutoCellHeight>false</AutoCellHeight>
+									<ShowInHeader>true</ShowInHeader>
+									<HeaderPicture/>
+									<HeaderHorizontalAlign>Left</HeaderHorizontalAlign>
+									<ShowInFooter>true</ShowInFooter>
+									<FooterDataPath/>
+									<FooterText/>
+									<FooterTextColor>auto</FooterTextColor>
+									<FooterBackColor>auto</FooterBackColor>
+									<FooterFont kind="AutoFont"/>
+									<FooterPicture/>
+									<FooterHorizontalAlign>Auto</FooterHorizontalAlign>
+									<Width>0</Width>
+									<RowsCount>0</RowsCount>
+									<HorizontalStretchable>auto</HorizontalStretchable>
+									<VerticalStretchable>auto</VerticalStretchable>
+									<Wrap>true</Wrap>
+									<PasswordMode>auto</PasswordMode>
+									<MultiLine>auto</MultiLine>
+									<ExtendedEdit>auto</ExtendedEdit>
+									<MarkNegatives>auto</MarkNegatives>
+									<ChoiceListButton>auto</ChoiceListButton>
+									<DropListButton>auto</DropListButton>
+									<ChoiceButton>auto</ChoiceButton>
+									<ChoiceButtonRepresentation>Auto</ChoiceButtonRepresentation>
+									<ClearButton>auto</ClearButton>
+									<SpinButton>auto</SpinButton>
+									<OpenButton>auto</OpenButton>
+									<CreateButton>auto</CreateButton>
+									<Mask/>
+									<ListChoiceMode>false</ListChoiceMode>
+									<AutoChoiceIncomplete>auto</AutoChoiceIncomplete>
+									<QuickChoice>auto</QuickChoice>
+									<ChoiceObjects>Auto</ChoiceObjects>
+									<Format/>
+									<InputFormat/>
+									<AutoMarkIncomplete>auto</AutoMarkIncomplete>
+									<ChoiceType>true</ChoiceType>
+									<IncompleteChoiceMode>OnEnterPressed</IncompleteChoiceMode>
+									<TypeDomainEnabled>true</TypeDomainEnabled>
+									<TextEdit>true</TextEdit>
+									<EditTextUpdateMode>Auto</EditTextUpdateMode>
+									<MinVal xsi:nil="true"/>
+									<MaxVal xsi:nil="true"/>
+									<ChoiceButtonPicture/>
+									<ChoiceForm/>
+									<ChoiceParamLinks/>
+									<ChoiceParams/>
+									<AvailableTypes/>
+									<ValueList/>
+									<TextColor>auto</TextColor>
+									<BackColor>auto</BackColor>
+									<BorderColor>auto</BorderColor>
+									<Font kind="AutoFont"/>
+									<LinkByType/>
+									<InputHint/>
+								</Properties>
+								<Events>
+									<Event name="OnChange"/>
+									<Event name="StartChoice"/>
+									<Event name="StartListChoice"/>
+									<Event name="Clearing"/>
+									<Event name="Tuning"/>
+									<Event name="Opening"/>
+									<Event name="Creating"/>
+									<Event name="ChoiceProcessing"/>
+									<Event name="AutoComplete"/>
+									<Event name="TextEditEnd"/>
+								</Events>
+								<PredefinedContainedItems>
+									<ContextMenu xsi:type="ContextMenuGroup" id="19:02023637-7868-4a5f-8576-835a76e0c9ba">
+										<Properties>
+											<Name>ТипОбменаДаннымиКонтекстноеМеню</Name>
+											<Type>ContextMenu</Type>
+											<Visible>true</Visible>
+											<UserVisible>
+												<xr:common>true</xr:common>
+											</UserVisible>
+											<Enabled>true</Enabled>
+											<ReadOnly>false</ReadOnly>
+											<EnableContentChange>false</EnableContentChange>
+											<Title/>
+											<TitleTextColor>auto</TitleTextColor>
+											<TitleFont kind="AutoFont"/>
+											<ToolTip/>
+											<ToolTipRepresentation>Auto</ToolTipRepresentation>
+											<Shortcut/>
+											<Width>0</Width>
+											<Height>0</Height>
+											<HorizontalStretch>auto</HorizontalStretch>
+											<VerticalStretch>auto</VerticalStretch>
+											<FillWithStdCommands>true</FillWithStdCommands>
+										</Properties>
+										<PredefinedContainedItems/>
+										<ContainedItems/>
+									</ContextMenu>
+									<ExtTooltip xsi:type="TextDecoration" id="32:02023637-7868-4a5f-8576-835a76e0c9ba">
+										<Properties>
+											<Name>ТипОбменаДаннымиExtendedTooltip</Name>
+											<Kind>Label</Kind>
+											<Visible>true</Visible>
+											<UserVisible>
+												<xr:common>true</xr:common>
+											</UserVisible>
+											<Enabled>true</Enabled>
+											<Width>0</Width>
+											<Height>0</Height>
+											<HorStretchable>auto</HorStretchable>
+											<VertStretchable>auto</VertStretchable>
+											<SkipOnInput>auto</SkipOnInput>
+											<TextColor>auto</TextColor>
+											<Font kind="AutoFont"/>
+											<ShortCut/>
+											<Title/>
+											<Tooltip/>
+											<TooltipRepresentation>Auto</TooltipRepresentation>
+											<HyperLink>false</HyperLink>
+											<HorAlignment>Left</HorAlignment>
+											<VertAlignment>Auto</VertAlignment>
+											<TitleHeight>0</TitleHeight>
+											<BackColor>auto</BackColor>
+											<BorderColor>auto</BorderColor>
+											<Border width="1">
+												<style xmlns="http://v8.1c.ru/8.1/data/ui" xsi:type="ControlBorderType">WithoutBorder</style>
+											</Border>
+										</Properties>
+										<Events>
+											<Event name="Click"/>
+											<Event name="URLProcessing"/>
+										</Events>
+										<PredefinedContainedItems/>
+									</ExtTooltip>
+								</PredefinedContainedItems>
+							</Input>
+							<CheckBox id="5:02023637-7868-4a5f-8576-835a76e0c9ba">
+								<Properties>
+									<Name>ИспользоватьОбменДаннымиЧерезПочту</Name>
+									<Type>CheckBoxField</Type>
+									<DataPath>НаборКонстант.ИспользоватьОбменДаннымиЧерезПочту</DataPath>
+									<Visible>true</Visible>
+									<UserVisible>
+										<xr:common>true</xr:common>
+									</UserVisible>
+									<DefaultItem>false</DefaultItem>
+									<Enabled>true</Enabled>
+									<ReadOnly>false</ReadOnly>
+									<SkipOnInput>auto</SkipOnInput>
+									<Title/>
+									<TitleTextColor>auto</TitleTextColor>
+									<TitleBackColor>auto</TitleBackColor>
+									<TitleFont kind="AutoFont"/>
+									<TitleLocation>Auto</TitleLocation>
+									<TitleHeight>0</TitleHeight>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Настройки почтового клиента доступны в справочнике пользователя. В веб клиенте обмен через почту отключен, файлы будут искатся только в каталоге обмена.</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Auto</ToolTipRepresentation>
+									<WarningOnEditRepresentation>Auto</WarningOnEditRepresentation>
+									<WarningOnEdit/>
+									<Shortcut/>
+									<CommandsContent/>
+									<HorizontalAlign>Auto</HorizontalAlign>
+									<VerticalAlign>Auto</VerticalAlign>
+									<EditMode>Enter</EditMode>
+									<FixingInTable>None</FixingInTable>
+									<CellHyperlink>false</CellHyperlink>
+									<AutoCellHeight>false</AutoCellHeight>
+									<ShowInHeader>true</ShowInHeader>
+									<HeaderPicture/>
+									<HeaderHorizontalAlign>Left</HeaderHorizontalAlign>
+									<ShowInFooter>true</ShowInFooter>
+									<FooterDataPath/>
+									<FooterText/>
+									<FooterTextColor>auto</FooterTextColor>
+									<FooterBackColor>auto</FooterBackColor>
+									<FooterFont kind="AutoFont"/>
+									<FooterPicture/>
+									<FooterHorizontalAlign>Auto</FooterHorizontalAlign>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ThreeState>false</ThreeState>
+									<BorderColor>auto</BorderColor>
+									<EqualElementsWidth>auto</EqualElementsWidth>
+								</Properties>
+								<Events>
+									<Event name="OnChange"/>
+								</Events>
+								<PredefinedContainedItems>
+									<ContextMenu xsi:type="ContextMenuGroup" id="6:02023637-7868-4a5f-8576-835a76e0c9ba">
+										<Properties>
+											<Name>ИспользоватьОбменДаннымиЧерезПочтуКонтекстноеМеню</Name>
+											<Type>ContextMenu</Type>
+											<Visible>true</Visible>
+											<UserVisible>
+												<xr:common>true</xr:common>
+											</UserVisible>
+											<Enabled>true</Enabled>
+											<ReadOnly>false</ReadOnly>
+											<EnableContentChange>false</EnableContentChange>
+											<Title/>
+											<TitleTextColor>auto</TitleTextColor>
+											<TitleFont kind="AutoFont"/>
+											<ToolTip/>
+											<ToolTipRepresentation>Auto</ToolTipRepresentation>
+											<Shortcut/>
+											<Width>0</Width>
+											<Height>0</Height>
+											<HorizontalStretch>auto</HorizontalStretch>
+											<VerticalStretch>auto</VerticalStretch>
+											<FillWithStdCommands>true</FillWithStdCommands>
+										</Properties>
+										<PredefinedContainedItems/>
+										<ContainedItems/>
+									</ContextMenu>
+									<ExtTooltip xsi:type="TextDecoration" id="33:02023637-7868-4a5f-8576-835a76e0c9ba">
+										<Properties>
+											<Name>ИспользоватьОбменДаннымиЧерезПочтуExtendedTooltip</Name>
+											<Kind>Label</Kind>
+											<Visible>true</Visible>
+											<UserVisible>
+												<xr:common>true</xr:common>
+											</UserVisible>
+											<Enabled>true</Enabled>
+											<Width>0</Width>
+											<Height>0</Height>
+											<HorStretchable>auto</HorStretchable>
+											<VertStretchable>auto</VertStretchable>
+											<SkipOnInput>auto</SkipOnInput>
+											<TextColor>auto</TextColor>
+											<Font kind="AutoFont"/>
+											<ShortCut/>
+											<Title/>
+											<Tooltip/>
+											<TooltipRepresentation>Auto</TooltipRepresentation>
+											<HyperLink>false</HyperLink>
+											<HorAlignment>Left</HorAlignment>
+											<VertAlignment>Auto</VertAlignment>
+											<TitleHeight>0</TitleHeight>
+											<BackColor>auto</BackColor>
+											<BorderColor>auto</BorderColor>
+											<Border width="1">
+												<style xmlns="http://v8.1c.ru/8.1/data/ui" xsi:type="ControlBorderType">WithoutBorder</style>
+											</Border>
+										</Properties>
+										<Events>
+											<Event name="Click"/>
+											<Event name="URLProcessing"/>
+										</Events>
+										<PredefinedContainedItems/>
+									</ExtTooltip>
+								</PredefinedContainedItems>
+							</CheckBox>
+							<CheckBox id="7:02023637-7868-4a5f-8576-835a76e0c9ba">
+								<Properties>
+									<Name>СжиматьФайлОбмена</Name>
+									<Type>CheckBoxField</Type>
+									<DataPath>НаборКонстант.СжиматьФайлОбмена</DataPath>
+									<Visible>true</Visible>
+									<UserVisible>
+										<xr:common>true</xr:common>
+									</UserVisible>
+									<DefaultItem>false</DefaultItem>
+									<Enabled>true</Enabled>
+									<ReadOnly>false</ReadOnly>
+									<SkipOnInput>auto</SkipOnInput>
+									<Title/>
+									<TitleTextColor>auto</TitleTextColor>
+									<TitleBackColor>auto</TitleBackColor>
+									<TitleFont kind="AutoFont"/>
+									<TitleLocation>Auto</TitleLocation>
+									<TitleHeight>0</TitleHeight>
+									<ToolTip/>
+									<ToolTipRepresentation>Auto</ToolTipRepresentation>
+									<WarningOnEditRepresentation>Auto</WarningOnEditRepresentation>
+									<WarningOnEdit/>
+									<Shortcut/>
+									<CommandsContent/>
+									<HorizontalAlign>Auto</HorizontalAlign>
+									<VerticalAlign>Auto</VerticalAlign>
+									<EditMode>Enter</EditMode>
+									<FixingInTable>None</FixingInTable>
+									<CellHyperlink>false</CellHyperlink>
+									<AutoCellHeight>false</AutoCellHeight>
+									<ShowInHeader>true</ShowInHeader>
+									<HeaderPicture/>
+									<HeaderHorizontalAlign>Left</HeaderHorizontalAlign>
+									<ShowInFooter>true</ShowInFooter>
+									<FooterDataPath/>
+									<FooterText/>
+									<FooterTextColor>auto</FooterTextColor>
+									<FooterBackColor>auto</FooterBackColor>
+									<FooterFont kind="AutoFont"/>
+									<FooterPicture/>
+									<FooterHorizontalAlign>Auto</FooterHorizontalAlign>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ThreeState>false</ThreeState>
+									<BorderColor>auto</BorderColor>
+									<EqualElementsWidth>auto</EqualElementsWidth>
+								</Properties>
+								<Events>
+									<Event name="OnChange"/>
+								</Events>
+								<PredefinedContainedItems>
+									<ContextMenu xsi:type="ContextMenuGroup" id="8:02023637-7868-4a5f-8576-835a76e0c9ba">
+										<Properties>
+											<Name>СжиматьФайлОбменаКонтекстноеМеню</Name>
+											<Type>ContextMenu</Type>
+											<Visible>true</Visible>
+											<UserVisible>
+												<xr:common>true</xr:common>
+											</UserVisible>
+											<Enabled>true</Enabled>
+											<ReadOnly>false</ReadOnly>
+											<EnableContentChange>false</EnableContentChange>
+											<Title/>
+											<TitleTextColor>auto</TitleTextColor>
+											<TitleFont kind="AutoFont"/>
+											<ToolTip/>
+											<ToolTipRepresentation>Auto</ToolTipRepresentation>
+											<Shortcut/>
+											<Width>0</Width>
+											<Height>0</Height>
+											<HorizontalStretch>auto</HorizontalStretch>
+											<VerticalStretch>auto</VerticalStretch>
+											<FillWithStdCommands>true</FillWithStdCommands>
+										</Properties>
+										<PredefinedContainedItems/>
+										<ContainedItems/>
+									</ContextMenu>
+									<ExtTooltip xsi:type="TextDecoration" id="34:02023637-7868-4a5f-8576-835a76e0c9ba">
+										<Properties>
+											<Name>СжиматьФайлОбменаExtendedTooltip</Name>
+											<Kind>Label</Kind>
+											<Visible>true</Visible>
+											<UserVisible>
+												<xr:common>true</xr:common>
+											</UserVisible>
+											<Enabled>true</Enabled>
+											<Width>0</Width>
+											<Height>0</Height>
+											<HorStretchable>auto</HorStretchable>
+											<VertStretchable>auto</VertStretchable>
+											<SkipOnInput>auto</SkipOnInput>
+											<TextColor>auto</TextColor>
+											<Font kind="AutoFont"/>
+											<ShortCut/>
+											<Title/>
+											<Tooltip/>
+											<TooltipRepresentation>Auto</TooltipRepresentation>
+											<HyperLink>false</HyperLink>
+											<HorAlignment>Left</HorAlignment>
+											<VertAlignment>Auto</VertAlignment>
+											<TitleHeight>0</TitleHeight>
+											<BackColor>auto</BackColor>
+											<BorderColor>auto</BorderColor>
+											<Border width="1">
+												<style xmlns="http://v8.1c.ru/8.1/data/ui" xsi:type="ControlBorderType">WithoutBorder</style>
+											</Border>
+										</Properties>
+										<Events>
+											<Event name="Click"/>
+											<Event name="URLProcessing"/>
+										</Events>
+										<PredefinedContainedItems/>
+									</ExtTooltip>
+								</PredefinedContainedItems>
+							</CheckBox>
+						</ContainedItems>
+					</Page>
+					<Page id="11:02023637-7868-4a5f-8576-835a76e0c9ba">
+						<Properties>
+							<Name>Отчеты</Name>
+							<Type>Page</Type>
+							<Visible>true</Visible>
+							<UserVisible>
+								<xr:common>true</xr:common>
+							</UserVisible>
+							<Enabled>true</Enabled>
+							<ReadOnly>false</ReadOnly>
+							<EnableContentChange>false</EnableContentChange>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отчеты</v8:content>
+								</v8:item>
+							</Title>
+							<TitleTextColor>auto</TitleTextColor>
+							<TitleFont kind="AutoFont"/>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отчеты</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Auto</ToolTipRepresentation>
+							<Shortcut/>
+							<Width>0</Width>
+							<Height>0</Height>
+							<HorizontalStretch>auto</HorizontalStretch>
+							<VerticalStretch>auto</VerticalStretch>
+							<Picture/>
+							<Grouping>Vertical</Grouping>
+							<ChildrenWidth>Auto</ChildrenWidth>
+							<Format/>
+							<ShowTitle>true</ShowTitle>
+							<TitleAttribute/>
+							<BackColor>auto</BackColor>
+						</Properties>
+						<PredefinedContainedItems>
+							<ExtTooltip xsi:type="TextDecoration" id="35:02023637-7868-4a5f-8576-835a76e0c9ba">
+								<Properties>
+									<Name>ОтчетыExtendedTooltip</Name>
+									<Kind>Label</Kind>
+									<Visible>true</Visible>
+									<UserVisible>
+										<xr:common>true</xr:common>
+									</UserVisible>
+									<Enabled>true</Enabled>
+									<Width>0</Width>
+									<Height>0</Height>
+									<HorStretchable>auto</HorStretchable>
+									<VertStretchable>auto</VertStretchable>
+									<SkipOnInput>auto</SkipOnInput>
+									<TextColor>auto</TextColor>
+									<Font kind="AutoFont"/>
+									<ShortCut/>
+									<Title/>
+									<Tooltip/>
+									<TooltipRepresentation>Auto</TooltipRepresentation>
+									<HyperLink>false</HyperLink>
+									<HorAlignment>Left</HorAlignment>
+									<VertAlignment>Auto</VertAlignment>
+									<TitleHeight>0</TitleHeight>
+									<BackColor>auto</BackColor>
+									<BorderColor>auto</BorderColor>
+									<Border width="1">
+										<style xmlns="http://v8.1c.ru/8.1/data/ui" xsi:type="ControlBorderType">WithoutBorder</style>
+									</Border>
+								</Properties>
+								<Events>
+									<Event name="Click"/>
+									<Event name="URLProcessing"/>
+								</Events>
+								<PredefinedContainedItems/>
+							</ExtTooltip>
+						</PredefinedContainedItems>
+						<ContainedItems>
+							<Input id="9:02023637-7868-4a5f-8576-835a76e0c9ba">
+								<Properties>
+									<Name>ВалютаДляПересчетаЕдиницОтчета</Name>
+									<Type>InputField</Type>
+									<DataPath>НаборКонстант.ВалютаДляПересчетаЕдиницОтчета</DataPath>
+									<Visible>true</Visible>
+									<UserVisible>
+										<xr:common>true</xr:common>
+									</UserVisible>
+									<DefaultItem>false</DefaultItem>
+									<Enabled>true</Enabled>
+									<ReadOnly>false</ReadOnly>
+									<SkipOnInput>auto</SkipOnInput>
+									<Title/>
+									<TitleTextColor>auto</TitleTextColor>
+									<TitleBackColor>auto</TitleBackColor>
+									<TitleFont kind="AutoFont"/>
+									<TitleLocation>Auto</TitleLocation>
+									<TitleHeight>0</TitleHeight>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>В некоторых отчетах в шапке будет использоватся пересчет "на лету" в эту валюту</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Auto</ToolTipRepresentation>
+									<WarningOnEditRepresentation>Auto</WarningOnEditRepresentation>
+									<WarningOnEdit/>
+									<Shortcut/>
+									<CommandsContent/>
+									<HorizontalAlign>Auto</HorizontalAlign>
+									<VerticalAlign>Auto</VerticalAlign>
+									<EditMode>Enter</EditMode>
+									<FixingInTable>None</FixingInTable>
+									<CellHyperlink>false</CellHyperlink>
+									<AutoCellHeight>false</AutoCellHeight>
+									<ShowInHeader>true</ShowInHeader>
+									<HeaderPicture/>
+									<HeaderHorizontalAlign>Left</HeaderHorizontalAlign>
+									<ShowInFooter>true</ShowInFooter>
+									<FooterDataPath/>
+									<FooterText/>
+									<FooterTextColor>auto</FooterTextColor>
+									<FooterBackColor>auto</FooterBackColor>
+									<FooterFont kind="AutoFont"/>
+									<FooterPicture/>
+									<FooterHorizontalAlign>Auto</FooterHorizontalAlign>
+									<Width>0</Width>
+									<RowsCount>0</RowsCount>
+									<HorizontalStretchable>auto</HorizontalStretchable>
+									<VerticalStretchable>auto</VerticalStretchable>
+									<Wrap>true</Wrap>
+									<PasswordMode>auto</PasswordMode>
+									<MultiLine>auto</MultiLine>
+									<ExtendedEdit>auto</ExtendedEdit>
+									<MarkNegatives>auto</MarkNegatives>
+									<ChoiceListButton>auto</ChoiceListButton>
+									<DropListButton>auto</DropListButton>
+									<ChoiceButton>auto</ChoiceButton>
+									<ChoiceButtonRepresentation>Auto</ChoiceButtonRepresentation>
+									<ClearButton>auto</ClearButton>
+									<SpinButton>auto</SpinButton>
+									<OpenButton>auto</OpenButton>
+									<CreateButton>auto</CreateButton>
+									<Mask/>
+									<ListChoiceMode>false</ListChoiceMode>
+									<AutoChoiceIncomplete>auto</AutoChoiceIncomplete>
+									<QuickChoice>auto</QuickChoice>
+									<ChoiceObjects>Auto</ChoiceObjects>
+									<Format/>
+									<InputFormat/>
+									<AutoMarkIncomplete>auto</AutoMarkIncomplete>
+									<ChoiceType>true</ChoiceType>
+									<IncompleteChoiceMode>OnEnterPressed</IncompleteChoiceMode>
+									<TypeDomainEnabled>true</TypeDomainEnabled>
+									<TextEdit>true</TextEdit>
+									<EditTextUpdateMode>Auto</EditTextUpdateMode>
+									<MinVal xsi:nil="true"/>
+									<MaxVal xsi:nil="true"/>
+									<ChoiceButtonPicture/>
+									<ChoiceForm/>
+									<ChoiceParamLinks/>
+									<ChoiceParams/>
+									<AvailableTypes/>
+									<ValueList/>
+									<TextColor>auto</TextColor>
+									<BackColor>auto</BackColor>
+									<BorderColor>auto</BorderColor>
+									<Font kind="AutoFont"/>
+									<LinkByType/>
+									<InputHint/>
+								</Properties>
+								<Events>
+									<Event name="OnChange"/>
+									<Event name="StartChoice"/>
+									<Event name="StartListChoice"/>
+									<Event name="Clearing"/>
+									<Event name="Tuning"/>
+									<Event name="Opening"/>
+									<Event name="Creating"/>
+									<Event name="ChoiceProcessing"/>
+									<Event name="AutoComplete"/>
+									<Event name="TextEditEnd"/>
+								</Events>
+								<PredefinedContainedItems>
+									<ContextMenu xsi:type="ContextMenuGroup" id="10:02023637-7868-4a5f-8576-835a76e0c9ba">
+										<Properties>
+											<Name>ВалютаДляПересчетаЕдиницОтчетаКонтекстноеМеню</Name>
+											<Type>ContextMenu</Type>
+											<Visible>true</Visible>
+											<UserVisible>
+												<xr:common>true</xr:common>
+											</UserVisible>
+											<Enabled>true</Enabled>
+											<ReadOnly>false</ReadOnly>
+											<EnableContentChange>false</EnableContentChange>
+											<Title/>
+											<TitleTextColor>auto</TitleTextColor>
+											<TitleFont kind="AutoFont"/>
+											<ToolTip/>
+											<ToolTipRepresentation>Auto</ToolTipRepresentation>
+											<Shortcut/>
+											<Width>0</Width>
+											<Height>0</Height>
+											<HorizontalStretch>auto</HorizontalStretch>
+											<VerticalStretch>auto</VerticalStretch>
+											<FillWithStdCommands>true</FillWithStdCommands>
+										</Properties>
+										<PredefinedContainedItems/>
+										<ContainedItems/>
+									</ContextMenu>
+									<ExtTooltip xsi:type="TextDecoration" id="36:02023637-7868-4a5f-8576-835a76e0c9ba">
+										<Properties>
+											<Name>ВалютаДляПересчетаЕдиницОтчетаExtendedTooltip</Name>
+											<Kind>Label</Kind>
+											<Visible>true</Visible>
+											<UserVisible>
+												<xr:common>true</xr:common>
+											</UserVisible>
+											<Enabled>true</Enabled>
+											<Width>0</Width>
+											<Height>0</Height>
+											<HorStretchable>auto</HorStretchable>
+											<VertStretchable>auto</VertStretchable>
+											<SkipOnInput>auto</SkipOnInput>
+											<TextColor>auto</TextColor>
+											<Font kind="AutoFont"/>
+											<ShortCut/>
+											<Title/>
+											<Tooltip/>
+											<TooltipRepresentation>Auto</TooltipRepresentation>
+											<HyperLink>false</HyperLink>
+											<HorAlignment>Left</HorAlignment>
+											<VertAlignment>Auto</VertAlignment>
+											<TitleHeight>0</TitleHeight>
+											<BackColor>auto</BackColor>
+											<BorderColor>auto</BorderColor>
+											<Border width="1">
+												<style xmlns="http://v8.1c.ru/8.1/data/ui" xsi:type="ControlBorderType">WithoutBorder</style>
+											</Border>
+										</Properties>
+										<Events>
+											<Event name="Click"/>
+											<Event name="URLProcessing"/>
+										</Events>
+										<PredefinedContainedItems/>
+									</ExtTooltip>
+								</PredefinedContainedItems>
+							</Input>
+						</ContainedItems>
+					</Page>
+				</ContainedItems>
+			</Pages>
+		</ContainedItems>
+	</Elements>
+	<NavigationPanel/>
+	<CommandPanel/>
+</Form>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<predefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReferencePredefined">
+	<item id="7b22631b-6909-42d4-bcb2-62d35c8e1c59">
+		<isFolder>false</isFolder>
+		<name>Бонусы</name>
+		<code xsi:type="xs:string">000000001</code>
+		<description>Бонусы</description>
+	</item>
+	<item id="a53607eb-fe83-4e48-95a3-ab71124e1fac">
+		<isFolder>false</isFolder>
+		<name>КурсоваяРазница</name>
+		<code xsi:type="xs:string">000000003</code>
+		<description>Курсовая разница (для удаленщиков)</description>
+	</item>
+	<item id="71672596-3a34-4cb5-8277-4208bca6a02a">
+		<isFolder>false</isFolder>
+		<name>Премия</name>
+		<code xsi:type="xs:string">000000002</code>
+		<description>Премия</description>
+	</item>
+</predefinedData>

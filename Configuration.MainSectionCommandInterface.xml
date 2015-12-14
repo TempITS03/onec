@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<commandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<commandVisibility>
+		<command>Document.РегламентноеЗадание.StandardCommand.Create</command>
+		<visibility>
+			<xr:common>true</xr:common>
+			<xr:forRole name="Role.Клиент">false</xr:forRole>
+			<xr:forRole name="Role.Программист">false</xr:forRole>
+		</visibility>
+	</commandVisibility>
+	<commandVisibility>
+		<command>Catalog.Контрагенты.StandardCommand.Create</command>
+		<visibility>
+			<xr:common>false</xr:common>
+			<xr:forRole name="Role.Клиент">false</xr:forRole>
+			<xr:forRole name="Role.Программист">false</xr:forRole>
+		</visibility>
+	</commandVisibility>
+	<commandVisibility>
+		<command>Document.ТабельРабот.StandardCommand.Create</command>
+		<visibility>
+			<xr:common>true</xr:common>
+			<xr:forRole name="Role.Клиент">false</xr:forRole>
+			<xr:forRole name="Role.Программист">false</xr:forRole>
+		</visibility>
+	</commandVisibility>
+	<commandVisibility>
+		<command>Catalog.Сотрудники.StandardCommand.Create</command>
+		<visibility>
+			<xr:common>false</xr:common>
+			<xr:forRole name="Role.Клиент">false</xr:forRole>
+			<xr:forRole name="Role.Программист">false</xr:forRole>
+		</visibility>
+	</commandVisibility>
+	<commandVisibility>
+		<command>Report.ВыплатаЗП.StandardCommand.Open</command>
+		<visibility>
+			<xr:common>true</xr:common>
+			<xr:forRole name="Role.Клиент">false</xr:forRole>
+			<xr:forRole name="Role.Программист">false</xr:forRole>
+		</visibility>
+	</commandVisibility>
+	<commandVisibility>
+		<command>Report.ОтчетПоВзаиморасчетам.StandardCommand.Open</command>
+		<visibility>
+			<xr:common>true</xr:common>
+			<xr:forRole name="Role.Клиент">false</xr:forRole>
+			<xr:forRole name="Role.Программист">false</xr:forRole>
+		</visibility>
+	</commandVisibility>
+	<commandVisibility>
+		<command>DataProcessor.ИзменениеПароляПользователяИБ.StandardCommand.Open</command>
+		<visibility>
+			<xr:common>true</xr:common>
+			<xr:forRole name="Role.ПолныеПрава">false</xr:forRole>
+			<xr:forRole name="Role.Программист">false</xr:forRole>
+			<xr:forRole name="Role.Клиент">false</xr:forRole>
+		</visibility>
+	</commandVisibility>
+	<commandPlacement>
+		<command>Document.РегламентноеЗадание.StandardCommand.Create</command>
+		<commandGroup>ActionsPanelCreate</commandGroup>
+		<placement>Manual</placement>
+	</commandPlacement>
+	<commandPlacement>
+		<command>Catalog.Контрагенты.StandardCommand.Create</command>
+		<commandGroup>ActionsPanelCreate</commandGroup>
+		<placement>Manual</placement>
+	</commandPlacement>
+	<commandPlacement>
+		<command>Document.ТабельРабот.StandardCommand.Create</command>
+		<commandGroup>ActionsPanelCreate</commandGroup>
+		<placement>Manual</placement>
+	</commandPlacement>
+	<commandPlacement>
+		<command>Catalog.Сотрудники.StandardCommand.Create</command>
+		<commandGroup>ActionsPanelCreate</commandGroup>
+		<placement>Manual</placement>
+	</commandPlacement>
+	<commandPlacement>
+		<command>Report.ВыплатаЗП.StandardCommand.Open</command>
+		<commandGroup>ActionsPanelReports</commandGroup>
+		<placement>Manual</placement>
+	</commandPlacement>
+	<commandPlacement>
+		<command>Report.ОтчетПоВзаиморасчетам.StandardCommand.Open</command>
+		<commandGroup>ActionsPanelReports</commandGroup>
+		<placement>Manual</placement>
+	</commandPlacement>
+	<commandPlacement>
+		<command>DataProcessor.ИзменениеПароляПользователяИБ.StandardCommand.Open</command>
+		<commandGroup>ActionsPanelTools</commandGroup>
+		<placement>Manual</placement>
+	</commandPlacement>
+</commandInterface>

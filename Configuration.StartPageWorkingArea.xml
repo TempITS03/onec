@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<desktopCommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<desktopTemplate>TwoColumnsVariableWidth</desktopTemplate>
+	<leftColumn>
+		<item>
+			<form>Document.РегламентноеЗадание.Form.ФормаСписка</form>
+			<height>10</height>
+			<visibility>
+				<xr:common>true</xr:common>
+				<xr:forRole name="Role.ПолныеПрава">true</xr:forRole>
+				<xr:forRole name="Role.Программист">true</xr:forRole>
+				<xr:forRole name="Role.Клиент">false</xr:forRole>
+			</visibility>
+		</item>
+		<item>
+			<form>Document.ТабельРабот.Form.ФормаСписка</form>
+			<height>10</height>
+			<visibility>
+				<xr:common>true</xr:common>
+				<xr:forRole name="Role.ПолныеПрава">true</xr:forRole>
+				<xr:forRole name="Role.Программист">false</xr:forRole>
+				<xr:forRole name="Role.Клиент">false</xr:forRole>
+			</visibility>
+		</item>
+		<item>
+			<form>Document.РегламентноеЗадание.Form.ФормаСпискаДляКлиента</form>
+			<height>10</height>
+			<visibility>
+				<xr:common>true</xr:common>
+				<xr:forRole name="Role.ПолныеПрава">false</xr:forRole>
+				<xr:forRole name="Role.Программист">false</xr:forRole>
+				<xr:forRole name="Role.Клиент">true</xr:forRole>
+			</visibility>
+		</item>
+	</leftColumn>
+	<rightColumn>
+		<item>
+			<form>DataProcessor.ПоискВДанных.Form.Форма</form>
+			<height>10</height>
+			<visibility>
+				<xr:common>false</xr:common>
+			</visibility>
+		</item>
+	</rightColumn>
+</desktopCommandInterface>

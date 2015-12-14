@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<commandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<commandVisibility>
+		<command>Document.ВыплатаЗП.StandardCommand.Create</command>
+		<visibility>
+			<xr:common>true</xr:common>
+		</visibility>
+	</commandVisibility>
+	<commandVisibility>
+		<command>Document.ДополнительныеНачисления.StandardCommand.Create</command>
+		<visibility>
+			<xr:common>true</xr:common>
+		</visibility>
+	</commandVisibility>
+	<commandVisibility>
+		<command>Catalog.ПереченьДополнительныхНачислений.StandardCommand.Create</command>
+		<visibility>
+			<xr:common>true</xr:common>
+		</visibility>
+	</commandVisibility>
+</commandInterface>

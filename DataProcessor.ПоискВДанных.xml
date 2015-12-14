@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DataProcessor uuid="66c269fe-f39b-44e1-be07-834566c08d65">
+		<InnerInfo>
+			<xr:producedType name="DataProcessorObject.ПоискВДанных" category="Object">
+				<xr:typeId>4a89d5df-910f-41cc-acd3-eb4c4c1da258</xr:typeId>
+				<xr:valTypeId>27590b7d-4d64-4bc0-85a2-5480f9ea28ad</xr:valTypeId>
+			</xr:producedType>
+			<xr:producedType name="DataProcessorManager.ПоискВДанных" category="Manager">
+				<xr:typeId>948d03ff-7c81-4ee9-9f39-af69a01607e1</xr:typeId>
+				<xr:valTypeId>73c38d2e-30b0-4c25-bfe2-b293e1b92f96</xr:valTypeId>
+			</xr:producedType>
+		</InnerInfo>
+		<Properties>
+			<Name>ПоискВДанных</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поиск в данных</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<DefaultForm>DataProcessor.ПоискВДанных.Form.Форма</DefaultForm>
+			<AuxiliaryForm/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<ExtendedPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поиск</v8:content>
+				</v8:item>
+			</ExtendedPresentation>
+			<Explanation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Полнотекстовый поиск в данных</v8:content>
+				</v8:item>
+			</Explanation>
+		</Properties>
+		<ChildObjects>
+			<Form>Форма</Form>
+			<Command uuid="279db7cf-9918-417d-8ad3-782aa7af2149">
+				<Properties>
+					<Name>ПоискВДанных</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поиск в данных</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>NavigationPanelOrdinary</Group>
+					<CommandParameterType/>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture/>
+					<Shortcut/>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

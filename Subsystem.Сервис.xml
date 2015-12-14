@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Subsystem uuid="8ed92e83-dc1e-40e0-86f6-23b1444f465d">
+		<Properties>
+			<Name>Сервис</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка и администрирование</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture>
+				<xr:pictureRef>CommonPicture.ПодсистемаСервис</xr:pictureRef>
+				<xr:loadTransparent>false</xr:loadTransparent>
+			</Picture>
+			<Content>
+				<xr:item xsi:type="xr:MDObjectRef">DataProcessor.АдминистративныйСервис</xr:item>
+				<xr:item xsi:type="xr:MDObjectRef">DataProcessor.ЖурналРегистрации</xr:item>
+				<xr:item xsi:type="xr:MDObjectRef">DataProcessor.ПоискВДанных</xr:item>
+				<xr:item xsi:type="xr:MDObjectRef">DataProcessor.ПроведениеДокументов</xr:item>
+				<xr:item xsi:type="xr:MDObjectRef">DataProcessor.УдалениеПомеченныхОбъектов</xr:item>
+				<xr:item xsi:type="xr:MDObjectRef">DataProcessor.УправлениеПолнотекстовымПоиском</xr:item>
+				<xr:item xsi:type="xr:MDObjectRef">CommonCommand.УстановитьРасширениеРаботыСФайлами</xr:item>
+				<xr:item xsi:type="xr:MDObjectRef">DataProcessor.БлокировкаСоединенийСИнформационнойБазой</xr:item>
+				<xr:item xsi:type="xr:MDObjectRef">CommonForm.ОсновнаяФормаКонстант</xr:item>
+				<xr:item xsi:type="xr:MDObjectRef">CommonCommand.ПерсональнаяНастройкаПроксиСервера</xr:item>
+				<xr:item xsi:type="xr:MDObjectRef">DataProcessor.ЗаполнитьЗавершенныеДокументыДатойСдачи</xr:item>
+			</Content>
+		</Properties>
+		<ChildObjects>
+			<Subsystem>Пользователи</Subsystem>
+			<Subsystem>ОбменДанными</Subsystem>
+		</ChildObjects>
+	</Subsystem>
+</MetaDataObject>
